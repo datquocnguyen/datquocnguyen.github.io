@@ -1,0 +1,80 @@
+/* primary elements */
+
+body { font: 1.0em/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif; width:90%; max-width: 90em; margin: 0 auto; text-align: justify ;}
+#header { margin-top: 0.5em; height: 2em; }
+#content { text-align: justify; }
+#footer { margin: 1.5em 0; }
+
+
+
+/* headers */
+h1, h2, h3{
+  font-family: Arial;
+  line-height: 1.4em;
+  text-align: left;
+  color: #008;
+}
+
+h4, h5, h6 {
+  font: 1.1em Arial; 
+  font-style: italic;
+  line-height: 1.2em;
+  text-align: left;
+  color: #009;
+}
+
+/* pre, code, kbd, and blockquote */
+pre, code, kbd, blockquote { background-color: #eee; border: 1px solid #ccc; }
+pre { padding: 0.5em; overflow: auto; }
+code, kbd { padding: 0 0.3ex; }
+pre > code { border: none; padding: 0; }
+blockquote { border-left: thick solid #ccc; padding: 0 1em; }
+
+/* tables */
+table {
+  border-top: double black;
+  border-bottom: thin solid black;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+th { border-bottom: thin solid black; }
+td { padding: 0 0.5em; }
+
+/* rules */
+hr { border: none; border-top: thin solid #999; }
+
+/* meta content */
+.meta { font-family: sans; font-size: 0.9333em; }
+.meta, .meta a:link, .meta a:visited { color: #888; }
+.meta a:hover { color: #444; }
+h1 + div.meta { margin-top: -1.5em; text-transform: uppercase; }
+h2 {margin-bottom: -0.3em;}
+h4 { margin-left: 0.8em; margin-bottom: -0.3em;}
+
+/* footnotes */
+a.noteref { font-size: 0.7333em; vertical-align: super; }
+#notes > li > p { display: inline; }
+
+/* images */
+p img { float: right; padding-left: 1em; }
+div.image { text-align: center; margin: 2em; }
+div.image img{ border: thin solid #ccc; padding: 2px; }
+div.image p { margin:0 }
+div.image p strong{ display: block }
+
+/* math */
+merror { display: inline; font-size: 1em; }
+math[display=block] { overflow: auto; margin: 0.75em 0; }
+math { white-space: nowrap; }
+.numberedEq span { float: right; }
+
+/* code */
+code .selector, code .difflines, code .function, code .bold, code .keyword { font-weight: bold; }
+code .comment, code .preproc, code .italics, code .value { font-style: italic; }
+code .string, code .regexp, code .character, code .number { color: #444; }
+code .math, code .comment, code .preproc { color: #666; }
+code .oldfile { color: #600; }
+code .newfile { color: #060; }
+
+/* error pages */
+.error .icon { color: #900; float: left; font-size: 5em; line-height: 1em; }

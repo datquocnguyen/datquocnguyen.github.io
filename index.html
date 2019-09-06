@@ -1,6 +1,290 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Dat Quoc Nguyen">
+<meta name="Keywords" content="Topic modeling, Representation learning, Rule-based learning, Part-of-speech tagging, Parsing, Question answering, Sentiment analysis, Text summarization, Information retrieval, Information extraction, Knowledge acquisition, STransE, LFTM, RDRPOSTagger, jLDADMM, VnDP, word embeddings, knowledge base completion, link prediction, embedding model, entity prediction, relation prediction, triple classification, morphological tagging, ripple down rules, short text modeling, embeddings, search personalization, dependency parsing, neural network, lstm, jptdp, joint model, word segmentation, Vietnamese, RDRsegmenter, VnMarMoT, named entity recognition, VnCoreNLP, NER, BioNLP, relation extraction, CNN, capsule netowrk, convolutional neural network, capse, convkb, jointRE, jPTDP, BioPosDep, biomedical NLP">
 <title>Dat Quoc Nguyen</title>
-<meta http-equiv="refresh" content="0; URL=https://people.eng.unimelb.edu.au/dqnguyen/"/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
+
+<script type="text/javascript">
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
 </head>
+
+<body>
+
+<div style="width:100%;float:left;margin-bottom:1.5em" align="justify">
+
+<h2>Dat Quoc Nguyen</h2>
+<br>
+
+
+  <tr tyle="width:100%">
+    <td><img alt="Dat Quoc Nguyen, Dat Nguyen" src="resources/Dat.jpeg" style="display:inline;margin:5px 10px 0px 0px;float:left" width="130"></td>
+    <td>
+    <div><a href="http://www.cis.unimelb.edu.au" target="_blank">School of Computing and Information Systems</a></div>
+<div><a href="http://www.unimelb.edu.au/" target="_blank">The University of Melbourne</a></div>
+<div>Room 3.17, Doug McDonell building (Building 168) <br> Grattan  Street, Parkville VIC 3010, Australia </div>
+<div><img src="resources/email.png" alt="Email" height="20">
+<div>[<a href="http://people.eng.unimelb.edu.au/dqnguyen/resume_DatQuocNguyen_May2019.pdf" target="_blank"><b>Resume</b></a>] [<a href="https://twitter.com/d_q_nguyen" target="_blank"><b>Twitter</b></a>]  [<a href="https://github.com/datquocnguyen" target="_blank"><b>Github</b></a>]  [<a href="https://scholar.google.com/citations?hl=en&user=HVl7vyEAAAAJ" target="_blank"><b>Google Scholar</b></a>]</div>
+    </td>
+  </tr>
+
+<br>
+
+<!--div style="width:85%;float:right" class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Resources')"><b>Resources</b></button>
+  <button class="tablinks" onclick="openTab(event, 'Publications')"><b>Publications</b></button>
+  <button class="tablinks" onclick="openTab(event, 'Talks')"><b>Talks</b></button>
+</div-->
+
+<div>
+I am a research fellow at The  University of Melbourne, working on applications of machine learning to natural language processing. My recent focus is on developing deep learning models for tagging, parsing, relation extraction and knowledge graph completion. Previously, I completed my PhD at  <a href="http://comp.mq.edu.au" target="_blank">Macquarie University</a> under the supervision of <a href="http://web.science.mq.edu.au/~mjohnson/" target="_blank">Mark Johnson</a> and <a href="http://web.science.mq.edu.au/~madras/" target="_blank">Mark Dras</a>, with a thesis entitled "<a href="http://hdl.handle.net/1959.14/1261406" target="_blank">Modeling Topics and Knowledge Bases with Vector Representations</a>".
+</div>
+
+
+<div id="Resources" class="tabcontent">
+<h3>Resources</h3>
+<ul>
+
+<li> <a href="https://github.com/datquocnguyen/jointRE" target="_blank">jointRE</a> (ECIR 2019):  Implementation of a neural network model for joint extraction of
+named entities and their semantic relations. </li>
+
+<li> <a href="https://github.com/daiquocnguyen/CapsE" target="_blank">CapsE</a> (NAACL 2019): Implementation of the capsule network-based model CapsE  of entities and relationships for knowledge graph completion. </li>
+
+<li> <a href="https://github.com/datquocnguyen/BioPosDep" target="_blank">BioPosDep</a> (BMC Bioinformatics 2019): A processing pipeline of tokenization, sentence segmentation, part-of-speech (POS)  tagging and dependency parsing for biomedical texts. </li>
+
+<li> <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">ConvKB</a> (NAACL 2018): Implementation of the convolutional neural network-based model ConvKB for knowledge graph completion. </li>
+<li> <a href="https://github.com/datquocnguyen/jPTDP" target="_blank">jPTDP</a> (CoNLL 2017-2018): Implementations of neural network  models for joint POS tagging and dependency parsing. jPTDP provides pre-trained joint models for the general English and biomedical domains, as well as for universal POS tagging and dependency parsing on 40+ languages.</li>
+<li style="color:#ff0000"><span style="color:#000000"> <a href="https://github.com/daiquocnguyen/EventPrediction" target="_blank">EventPrediction</a> (IJCNLP 2017): Datasets for  predicting an event description from a preceding sentence in a text.</li>
+
+<li> <a href="https://github.com/datquocnguyen/TransE-NMM" target="_blank">TransE-NMM</a> (CoNLL 2016): Implementation of the neighborhood mixture model TransE-NMM for knowledge graph completion.</li>
+<li> <a href="https://github.com/datquocnguyen/STransE" target="_blank">STransE</a> (NAACL 2016): Implementation of the  embedding model STransE  for knowledge graph completion. </li>
+<li> <a href="https://github.com/datquocnguyen/jLDADMM" target="_blank">jLDADMM</a> (2015): A Java package for LDA and DMM topic models. 
+jLDADMM is released to provide alternative choices for topic modeling on normal or short texts. It contains implementations of the Latent Dirichlet Allocation topic model and the one-topic-per-document Dirichlet Multinomial Mixture model (i.e. mixture of unigrams), using collapsed Gibbs sampling. In addition, jLDADMM supplies a document clustering evaluation to compare topic models.
+</li>
+<li><a href="https://github.com/datquocnguyen/LFTM" target="_blank">LFTM</a> (TACL 2015): Implementations of  latent feature topic models LF-LDA and LF-DMM, which extend the LDA and DMM topic models with word embeddings.</li>
+<li><a href="https://github.com/datquocnguyen/RDRPOSTagger" target="_blank">RDRPOSTagger</a> (EACL 2014):  A fast and accurate toolkit for POS and morphological tagging. RDRPOSTagger provides pre-trained models for fine-grained POS and morphological tagging for 13 languages including: Bulgarian, Czech, Dutch, English, French, German, Hindi, Italian, Portuguese, Spanish, Swedish, Thai and Vietnamese. RDRPOSTagger also provides pre-trained universal POS tagging models for 40+ languages.</li> 
+<li style="color:#ff0000"><span style="color:#000000"><a href="https://github.com/daiquocnguyen/SAR14" target="_blank">SAR14</a> (WASSA 2014): A sentiment analysis dataset of 234K IMDb movie reviews.</li>
+<li style="margin-bottom:0.5em;color:#ff0000"><span style="color:#000000"><a href="http://l3s.de/~gtran/timeline/Timeline17.zip" target="_blank">Timeline17</a> (WWW  2013): A timeline summarization dataset of 17 manually-created timelines and their associated news articles.</li>
+
+<b>For Vietnamese:</b><br>
+
+<li> <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">VnCoreNLP</a> (NAACL 2018): A Vietnamese NLP pipeline of word (and sentence) segmentation, POS tagging, named entity recognition and dependency parsing. </li>
+<li> <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">RDRsegmenter</a> (LREC 2018): A fast and accurate Vietnamese word segmenter. </li>
+<li><a href="https://github.com/datquocnguyen/VnMarMoT" target="_blank">VnMarMoT</a> (ALTA 2017): A pre-trained Vietnamese POS tagging model. </li>
+<li style="color:#ff0000"><span style="color:#000000"><a href="http://vndp.sourceforge.net/" target="_blank">VnDT</a> (NLDB 2014): A Vietnamese dependency treebank.</li>
+<li style="color:#ff0000"><span style="color:#000000"><a href="http://youtu.be/M1PHvJvv1Z8" target="_blank">KbQAS</a> (ISWC 2013): Video demo of the knowledge-based Vietnamese question answering system KbQAS.</li>
+
+<li style="color:#ff0000"><span style="color:#000000"><a href="https://datquocnguyen.github.io/resources/vietnamese.html" target="_blank"><b>A list of my papers on Vietnamese NLP</b></a></li>
+
+</ul>
+
+</div>
+
+
+
+<div id="Publications" class="tabcontent">
+<h3>Publications</h3>
+
+(Last updated: 1 June 2019) <br>
+<a href="https://scholar.google.com/citations?hl=en&user=HVl7vyEAAAAJ" target="_blank">Link to my entries on Google Scholar</a>
+
+
+<ul>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2019]</b></span>
+
+<li style="margin-top:0.5em;text-align:justify"> Zenan Zhai, Dat Quoc Nguyen, Saber Akhondi, Camilo Thorne, Christian Druckenbrodt, Trevor Cohn, Michelle Gregory and Karin Verspoor. <b>2019</b>. <a href="https://datquocnguyen.github.io/resources/BioNLP2019.pdf" target="_blank">Improving Chemical Named Entity Recognition in Patents with Contextualized Word Embeddings</a>. In <i>Proceedings of the  18th ACL Workshop on Biomedical Natural Language Processing</i> (BioNLP), to appear. </li>
+
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen, Karin Verspoor and Blanca Gallego Luxan. <b>2019</b>. <a href="http://www.datascience.manchester.ac.uk/media/1668/risk-prediction-using-electronic-health-records-of-patients-with-atrial-fibrillation.pdf" target="_blank">Risk prediction using electronic health records of patients with atrial fibrillation</a>. In <i>Proceedings of the Advances in Data Science conference abstracts</i> (DS-Advances). <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/DSAdvances2019.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen and Karin Verspoor. <b>2019</b>. <a href="https://doi.org/10.1007/978-3-030-15712-8_47" target="_blank">End-to-end neural relation extraction using deep biaffine attention</a>. In <i>Proceedings of the 41st European Conference on Information Retrieval</i> (ECIR), pages 729-738. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ECIR2019.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ECIR2019.bib" target="_blank">[.bib]</a>  <a href="https://github.com/datquocnguyen/jointRE" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify"> Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2019</b>. 
+<a href="https://www.aclweb.org/anthology/N19-1226" target="_blank">A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization</a>. In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 2180-2189. <a href="https://www.aclweb.org/anthology/N19-1226.bib" target="_blank">[.bib]</a>  <a href="https://github.com/daiquocnguyen/CapsE" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000"> Dat Quoc Nguyen and Karin Verspoor. <b>2019</b>. <a href="https://doi.org/10.1186/s12859-019-2604-0" target="_blank">From POS tagging to dependency parsing for biomedical event extraction</a>. <i>BMC Bioinformatics</i>, 20(1):72:1-72:13. (SCIE, JCR IF: 2.511) <a href="https://dblp1.uni-trier.de/rec/bibtex/journals/bmcbi/NguyenV19" target="_blank">[.bib]</a>  <a href="https://github.com/datquocnguyen/BioPosDep" target="_blank">[Software]</a></li>
+
+
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2018]</b></span>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Dat Quoc Nguyen. <b>2018</b>. <a href="https://arxiv.org/abs/1812.11459" target="_blank">A neural joint model for Vietnamese word segmentation, POS tagging and dependency parsing</a>. <i>arXiv preprint</i>, arXiv:1812.11459. <a href="https://datquocnguyen.github.io/resources/jointWPD.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify"> Zenan Zhai, Dat Quoc Nguyen and Karin Verspoor. <b>2018</b>. 
+<a href="http://aclweb.org/anthology/W18-5605" target="_blank">Comparing CNN and LSTM character-level embeddings in BiLSTM-CRF models for chemical and disease named entity recognition</a>. In <i>Proceedings of the 9th International Workshop on Health Text Mining and Information Analysis</i> (LOUHI), pages 38-43. <a href="http://aclweb.org/anthology/W18-5605.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">  Dat Quoc Nguyen and Karin Verspoor. <b>2018</b>. <a href="http://aclweb.org/anthology/K18-2008" target="_blank">An improved neural network model for joint POS tagging and dependency parsing</a>. In <i>Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies</i> (CoNLL),  pages 81-91. <a href="http://aclweb.org/anthology/K18-2008.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/jPTDP" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000"> Dai Quoc Nguyen, Dat Quoc Nguyen, Tu Dinh Nguyen and Dinh Phung. <b>2018</b>. <a href="http://doi.org/10.3233/SW-180318" target="_blank">A convolutional neural network-based model for knowledge base completion and its application to search personalization</a>. <i>Semantic Web</i>, to appear. (SCIE, JCR IF: 3.524) <a href="http://www.semantic-web-journal.net/system/files/swj1867.pdf" target="_blank">[.pdf]</a> <a href="https://datquocnguyen.github.io/resources/SWJ318.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify"> Dat Quoc Nguyen and Karin Verspoor. <b>2018</b>. <a href="http://aclweb.org/anthology/W18-2314" target="_blank">Convolutional neural networks for chemical-disease relation extraction are improved with character-based word embeddings</a>. In <i>Proceedings of the  17th ACL Workshop on Biomedical Natural Language Processing</i> (BioNLP), pages 129-136. <a href="http://aclweb.org/anthology/W18-2314.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify"> Thanh Vu, Dat Quoc Nguyen, Xuan-Son Vu, Dai Quoc Nguyen, Michael Catt and Michael Trenell. <b>2018</b>. <a href="http://aclweb.org/anthology/S18-1085" target="_blank">NIHRIO at SemEval-2018 Task 3: A Simple and Accurate Neural Network Model for Irony Detection in Twitter</a>. 	In <i>Proceedings of the 12th International Workshop on Semantic Evaluation</i> (SemEval), pages 525-530. <a href="http://aclweb.org/anthology/S18-1085.bib" target="_blank">[.bib]</a> <a href="https://github.com/NIHRIO/IronyDetectionInTwitter" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify"> Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2018</b>. <a href="http://aclweb.org/anthology/N18-2053" target="_blank">A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network</a>. In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 327-333. <a href="http://aclweb.org/anthology/N18-2053.bib" target="_blank">[.bib]</a> <a href="https://github.com/daiquocnguyen/ConvKB" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Thanh Vu, Dat Quoc Nguyen, Dai Quoc Nguyen, Mark Dras and  Mark Johnson. <b>2018</b>. <a href="http://aclweb.org/anthology/N18-5012" target="_blank">VnCoreNLP: A Vietnamese Natural Language Processing Toolkit</a>. In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</i> (NAACL), pages 56-60. <a href="http://aclweb.org/anthology/N18-5012.bib" target="_blank">[.bib]</a> <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Dat Quoc Nguyen, Dai Quoc Nguyen, Thanh Vu, Mark Dras and  Mark Johnson. <b>2018</b>. <a href="https://www.aclweb.org/anthology/L18-1410" target="_blank">A Fast and Accurate Vietnamese Word Segmenter</a>. In <i>Proceedings of the 11th International Conference on Language Resources and Evaluation</i> (LREC), pages 2582-2587. <a href="https://www.aclweb.org/anthology/L18-1410.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">[Software]</a></li>
+
+
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2017]</b></span>
+
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Thanh Vu, Dai Quoc Nguyen, Mark Dras and  Mark Johnson. <b>2017</b>. <a href="http://aclweb.org/anthology/U17-1013" target="_blank">From Word Segmentation to POS Tagging for Vietnamese</a>. In <i>Proceedings of the 15th Annual Workshop of the Australasian Language Technology Association</i> (ALTA), pages 108-113. <!--<a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ALTA2017.pdf" target="_blank">[.pdf]</a> --><a href="http://aclweb.org/anthology/U17-1013.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/VnMarMoT" target="_blank">[Software]</a></li> 
+
+<li style="margin-top:0.5em;text-align:justify">  Dai Quoc Nguyen, Dat Quoc Nguyen, Cuong Xuan Chu, Stefan Thater and  Manfred Pinkal. <b>2017</b>. <a href="http://www.aclweb.org/anthology/I17-2007" target="_blank">Sequence to Sequence Learning for Event Prediction</a>. In <i>Proceedings of the 8th International Joint Conference on Natural Language Processing</i> (IJCNLP),  pages 37-42. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/IJCNLP2017.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/I17-2007.bib" target="_blank">[.bib]</a> <a href="https://github.com/daiquocnguyen/EventPrediction" target="_blank">[Data]</a></li> </li>
+
+
+<li style="margin-top:0.5em;text-align:justify">Mark Johnson and  Dat Quoc Nguyen. <b>2017</b>. <a href="http://web.science.mq.edu.au/~mjohnson/papers/Johnson17Power-talk.pdf" target="_blank">How much data is enough? Predicting how accuracy varies with training data size</a>. Technical report. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/TDataSize.bib" target="_blank">[.bib]</a> </li> 
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen. <b>2017</b>. <i><a href="http://hdl.handle.net/1959.14/1261406" target="_blank">Modeling Topics and Knowledge Bases with Vector Representations</a></i>. PhD thesis, Macquarie University, Australia. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/DatQuocNguyen_PHD_Thesis.pdf" target="_blank">[.pdf]</a></li> 
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Mark Dras and  Mark Johnson. <b>2017</b>. <a href="http://www.aclweb.org/anthology/K17-3014" target="_blank">A Novel Neural Network Model for Joint POS Tagging and Graph-based Dependency Parsing</a>. In <i>Proceedings of the CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies</i> (CoNLL), pages 134-142. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/CoNLL2017st.pdf" target="_blank">[.pdf]</a-->  <a href="http://www.aclweb.org/anthology/K17-3014.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/jPTDP" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">  Dai Quoc Nguyen, Dat Quoc Nguyen, Ashutosh Modi, Stefan Thater and  Manfred Pinkal. <b>2017</b>. <a href="http://www.aclweb.org/anthology/S17-1015" target="_blank">A Mixture Model for Learning Multi-Sense Word Embeddings</a>. In <i>Proceedings of the 6th Joint Conference on Lexical and Computational Semantics</i> (*SEM), pages 121-127. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/starsem2017.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/S17-1015.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify"> Thanh Vu*, Dat Quoc Nguyen*, Mark Johnson, Dawei Song and Alistair Willis. <b>2017</b>. <a href="https://doi.org/10.1007/978-3-319-56608-5_54" target="_blank">Search Personalization with Embeddings</a>. In <i>Proceedings of the 39th European Conference on Information Retrieval</i> (ECIR), pages 598-604. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ECIR2017.pdf" target="_blank">[.pdf]</a> <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ECIR2017.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen. <b>2017</b>. <a href="https://arxiv.org/abs/1703.08098" target="_blank">An overview of embedding models of entities and relationships for knowledge base completion</a>. <i>arXiv preprint</i>, arXiv:1703.08098. <!--a href="https://arxiv.org/pdf/1703.08098.pdf" target="_blank">[.pdf]</a-->  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/OverviewKBC.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000">Dat Quoc Nguyen*, Dai Quoc Nguyen* and Son Bao Pham. <b>2017</b>. <a href="https://doi.org/10.3233/SW-150204" target="_blank">Ripple Down Rules for Question Answering</a>. <i>Semantic Web</i>, 8(4):511-532. (SCIE, JCR IF: 2.224) <a href="http://www.semantic-web-journal.net/system/files/swj1180.pdf" target="_blank">[.pdf]</a> <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/SWJ.bib" target="_blank">[.bib]</a> </li>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2016]</b></span>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Mark Dras and Mark Johnson. <b>2016</b>. <a href="http://www.aclweb.org/anthology/U16-1017" target="_blank">An empirical study for Vietnamese dependency parsing</a>. In <i>Proceedings of the 14th Annual Workshop of the Australasian Language Technology Association</i> (ALTA), pages 143-149. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ALTA2016.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/U16-1017.bib" target="_blank">[.bib]</a></li> 
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Kairit Sirts, Lizhen Qu and Mark Johnson. <b>2016</b>. <a href="http://www.aclweb.org/anthology/K16-1005" target="_blank">Neighborhood Mixture Model for Knowledge Base Completion</a>. In <i>Proceedings of the 20th SIGNLL Conference on Computational Natural Language Learning</i> (CoNLL), pages 40-50. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/CoNLL2016.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/K16-1005.bib" target="_blank">[.bib]</a>  <a href="https://datquocnguyen.github.io/resources/TransE-NMM-Code.zip" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000">Didi Surian, Dat Quoc Nguyen, Georgina Kennedy, Mark Johnson, Enrico Coiera and Adam G. Dunn. <b>2016</b>. <a href="https://dx.doi.org/10.2196/jmir.6045" target="_blank">Characterizing Twitter Discussions About HPV Vaccines Using Topic Modeling and Community Detection</a>. <i>Journal of Medical Internet Research</i>, 18(8):e232. (SCIE, JCR IF: 5.175)<!--a href="http://www.jmir.org/2016/8/e232/pdf" target="_blank">[.pdf]</a--> <a href="http://www.jmir.org/article/export/bib/jmir_v18i8e232" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Kairit Sirts, Lizhen Qu and Mark Johnson. <b>2016</b>. <a href="http://www.aclweb.org/anthology/N16-1054" target="_blank">STransE: a novel embedding model of entities and relationships in knowledge bases</a>. In <i>Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</i> (NAACL), pages 460-466. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/NAACL2016.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/N16-1054.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/STransE" target="_blank">[Software]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000">Dat Quoc Nguyen*, Dai Quoc Nguyen*, Dang Duc Pham and Son Bao Pham. <b>2016</b>. <a href="https://doi.org/10.3233/AIC-150698" target="_blank">A Robust Transformation-Based Learning Approach Using Ripple Down Rules for Part-Of-Speech Tagging</a>. <i>AI Communications</i>, 29(3):409-422. (SCIE, JCR IF: 0.654) <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/AIC698.pdf" target="_blank">[.pdf]</a> <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/AICom.bib" target="_blank">[.bib]</a> <!--a href="http://rdrpostagger.sourceforge.net/" target="_blank">[Software]</a--><br></li>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2015]</b></span>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Kairit Sirts and Mark Johnson. <b>2015</b>. <a href="http://www.aclweb.org/anthology/U15-1014" target="_blank">Improving Topic Coherence with Latent Feature Word Representations in MAP Estimation for Topic Modeling</a>. In <i>Proceedings of the 13th Annual Workshop of the Australasian Language Technology Association</i> (ALTA), pages 116-121. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ALTA2015.pdf" target="_blank">[.pdf]</a--> <a href="http://www.aclweb.org/anthology/U15-1014.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/MAP4LDA">[Software]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000">Dat Quoc Nguyen, Richard Billingsley, Lan Du and Mark Johnson. <b>2015</b>. <a href="https://transacl.org/ojs/index.php/tacl/article/view/582/158" target="_blank">Improving Topic Models with Latent Feature Word Representations</a>. <i>Transactions of the Association for Computational Linguistics</i> (TACL), 3:299-313. <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/TACL582.pdf" target="_blank">[.pdf]</a--> <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/TACL.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/LFTM" target="_blank">[Software]</a> <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/TACL-datasets.zip" target="_blank">[Data]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Dat Quoc Nguyen. <b>2015</b>. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/jldadmmV1.pdf" target="_blank">jLDADMM: A Java package for the LDA and DMM topic models</a>. Technical report. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/jldadmm.bib" target="_blank">[.bib]</a> <a href="https://github.com/datquocnguyen/jLDADMM" target="_blank">[Software]</a></li>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2014]</b></span>
+
+
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Dai Quoc Nguyen, Son Bao Pham, Phuong-Thai Nguyen and Minh Le Nguyen. <b>2014</b>. <a href="http://dx.doi.org/10.1007/978-3-319-07983-7_26" target="_blank">From Treebank Conversion to Automatic Dependency Parsing for Vietnamese</a>. In<i> Proceedings of 19th International Conference on Application of Natural Language to Information Systems</i> (NLDB), pages 196-207.  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/NLDB2014.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/NLDB2014.bib" target="_blank">[.bib]</a> <a href="http://vndp.sourceforge.net/" target="_blank">[Data]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen, Thanh Vu and Son Bao Pham. <b>2014</b>. <a href="http://www.aclweb.org/anthology/W14-2621" target="_blank">Sentiment Classification on Polarity Reviews: An Empirical Study Using Rating-based Features</a>. In <i>Proceedings of the 5th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis</i> (WASSA), pages 128-135.  <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/WASSA2014.pdf" target="_blank">[.pdf]</a-->  <a href="http://www.aclweb.org/anthology/W14-2621.bib" target="_blank">[.bib]</a> <a href="https://github.com/daiquocnguyen/SAR14" target="_blank">[Data]</a> </li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Dat Quoc Nguyen, Dai Quoc Nguyen, Dang Duc Pham and Son Bao Pham. <b>2014</b>. <a href="http://www.aclweb.org/anthology/E14-2005" target="_blank">RDRPOSTagger: A Ripple Down Rules-based Part-Of-Speech Tagger</a>. In <i>Proceedings of the Demonstrations at the 14th Conference of the European Chapter of the Association for Computational Linguistics</i> (EACL), pages 17-20.  <!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/EACL2014.pdf" target="_blank">[.pdf]</a-->  <a href="http://www.aclweb.org/anthology/E14-2005.bib" target="_blank">[.bib]</a>  <a href="http://rdrpostagger.sourceforge.net/" style="text-align:left" target="_blank">[Software]</a></li>
+
+<span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2013]</b></span>
+
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen  and Son Bao Pham. <b>2013</b>. <a href="http://www.aclweb.org/anthology/I13-1114" target="_blank">A Two-Stage Classifier for Sentiment Analysis</a>. In <i>Proceedings of the 6th International Joint Conference on Natural Language Processing</i> (IJCNLP), pages 897-901. 
+<!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/IJCNLP2013.pdf" target="_blank">[.pdf]</a-->  <a href="http://www.aclweb.org/anthology/I13-1114.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify"> Giang Binh Tran, Mohammad Alrifai and Dat Quoc Nguyen. <b>2013</b>. <a href="https://doi.org/10.1145/2487788.2487829" target="_blank">Predicting Relevant News Events for Timeline Summaries</a>. In <i>Proceedings of the 22nd International Conference on World Wide Web: Poster Track</i> (WWW), pages 91-92.  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/WWW2013.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/10www2013.bib" target="_blank">[.bib]</a> <a href="http://l3s.de/~gtran/timeline/Timeline17.zip" target="_blank">[Data]</a></li>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen, Dai Quoc Nguyen and Son Bao Pham. <b>2013</b>. <a href="http://ceur-ws.org/Vol-1035/iswc2013_demo_28.pdf" target="_blank">KbQAS: A Knowledge-based QA System</a>. In <i>Proceedings of the 12th International Semantic Web Conference: Posters and Demonstrations Track</i> (ISWC), pages 109-112. 
+<!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/ISWC2013.pdf" target="_blank">[.pdf]</a-->  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/11ISWC2013.bib" target="_blank">[.bib]</a>  <a href="http://youtu.be/M1PHvJvv1Z8" target="_blank">[Demo video]</a> </li>
+
+<!--b>[Before 2013]</b><br-->
+
+<a href="javascript:showhide('uniquename')">
+        <b>[Before 2013]</b><br>
+</a>
+<div id="uniquename" style="display:none;">
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen and Son Bao Pham. <b>2012</b>. <a href="http://dx.doi.org/10.1007/978-3-642-31087-4_71" target="_blank">A Vietnamese Text-based Conversational Agent</a>. In <em>Proceedings of the 25th International Conference on Industrial, Engineering &amp; Other Applications of Applied Intelligent Systems</em> (IEA/AIE), pages 699-708. 
+</span><a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/IEAAIE2012a.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/9ieaaie2012.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen and Son Bao Pham. <b>2012</b>. <a href="http://dx.doi.org/10.1007/978-3-642-31087-4_17" target="_blank">A Semantic Approach for Question Analysis</a>. In <em>Proceedings of the 25th International Conference on Industrial, Engineering &amp; Other Applications of Applied Intelligent Systems</em> (IEA/AIE), pages 156-165. 
+<a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/IEAAIE2012b.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/8ieaaie2012.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Dai Quoc Nguyen, Son Bao Pham and Dang Duc Pham. <b>2011</b>. <a href="http://dx.doi.org/10.1007/978-3-642-19400-9_15" target="_blank">Ripple Down Rules for Part-Of-Speech Tagging</a>. In <em>Proceedings of the 12th International Conference on Intelligent Text Processing and Computational Linguistics</em> (CICLing), pages 190-201. <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/CICLing2011.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/4cicling2011.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify">Thanh Vu and Dat Quoc Nguyen. <b>2011</b>. <a href="http://dx.doi.org/10.1109/GRC.2011.6122681" target="_blank">A Vietnamese Information Retrieval System for Product-Price</a>. In <em>Proceedings of the 2011 IEEE International Conference on Granular Computing</em> (GrC), pages 691-696. 
+<a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/GrC2011.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/7grc2011.bib" target="_blank">[.bib]</a> </li>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen*, Dai Quoc Nguyen* and Son Bao Pham. <b>2011</b>. <a href="http://aclweb.org/anthology/R11-1056" target="_blank">Systematic Knowledge Acquisition for Question Analysis</a>. In <em> Proceedings of the 8th International Conference on Recent Advances in Natural Language Processing</em> (RANLP), pages 406-412. 
+</span><!--a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/RANLP2011.pdf" target="_blank">[.pdf]</a-->  <a href="http://aclweb.org/anthology/R11-1056.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen, Khoi Trong Ma and Son Bao Pham. <b>2011</b>. <a href="http://dx.doi.org/10.1109/NLPKE.2011.6138248" target="_blank">Automatic Ontology Construction from Vietnamese text</a>. In <i>Proceedings of the 7th International Conference on Natural Language Processing and Knowledge Engineering</i> (NLP-KE), pages 485-488. 
+</span><a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/NLPKE2011.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/5nlpke2011.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dai Quoc Nguyen, Dat Quoc Nguyen and Son Bao Pham. <b>2009</b>. <a href="http://dx.doi.org/10.1109/KSE.2009.42" target="_blank">A Vietnamese Question Answering System</a>. In <em>Proceedings of the 2009 International Conference on Knowledge and Systems Engineering</em> (KSE), pages 26-32. 
+<a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/KSE2009a.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/2kse2009.bib" target="_blank">[.bib]</a></li>
+
+<li style="margin-top:0.5em;text-align:justify">Dat Quoc Nguyen, Dai Quoc Nguyen, Son Bao Pham and The Duy Bui. <b>2009</b>. <a href="http://dx.doi.org/10.1109/KSE.2009.39" target="_blank">A Fast Template-based Approach to Automatically Identify Primary Text Content of a Web Page</a>. In <em>Proceedings of the 2009 International Conference on Knowledge and Systems Engineering</em> (KSE), pages 232-236. 
+<a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/KSE2009b.pdf" target="_blank">[.pdf]</a>  <a href="http://people.eng.unimelb.edu.au/dqnguyen/resources/3kse2009.bib" target="_blank">[.bib]</a></span></li>
+
+<li style="margin-top:0.5em;text-align:justify;color:#ff0000"><span style="color:#000000">Dai Quoc Nguyen, Dat Quoc Nguyen, Son Bao Pham and The Duy Bui. <b>2008</b>. A fast approach to automatic detection of web page content. <i>VNU Journal of Science</i>, Special Issue on ICT Research and Development Symposium of Hanoi Forum on Information Communication Technology 2008. </span></li>        	
+</ul>
+
+</div>
+
+
+
+<div id="service" class="tabcontent">
+<h3>Academic service</h3>
+<ul>
+<li> <b>Program Committee:</b> NAACL (2018-2019), ACL (2019), EMNLP (2019), AAAI (2020), CoNLL Shared Task (2017-2018),  ACL SRW workshop (2018-2019). </li>
+<li> <b>Journal reviewer:</b>  IEEE Transactions on Knowledge and Data Engineering (2018), BMC Bioinformatics (2019). </li>
+</ul>
+</div>
+
+
+<div id="Talks" class="tabcontent">
+<h3>Talks</h3>
+
+<!--div style="overflow: auto; width:100%; height:125px;"-->
+
+<ul>
+<li> Oct 2018 — "<a href="https://datquocnguyen.github.io/resources/JointModels.pdf" target="_blank">Joint models for POS tagging and
+dependency parsing, and for NER and relation classification</a>", NLP seminar talk at The  University of Melbourne + talk   at Elsevier Information Systems GmbH</li>
+<li> Apr 2018 — "<a href="https://datquocnguyen.github.io/resources/KBCompletion_ConvKB_slides.pdf" target="_blank">A convolutional neural network-based model for knowledge base completion</a>", NLP seminar talk at The  University of Melbourne + LTG seminar talk   at Macquarie University</li>
+<li> Jan 2018 — "<a href="https://datquocnguyen.github.io/resources/RDR44NLP_MQ_UniMelb.pdf" target="_blank">A rule-based framework for sequence labeling tasks and its application to Vietnamese NLP</a>", NLP seminar talk at The  University of Melbourne</li>
+<li> Oct 2017 — "<a href="https://datquocnguyen.github.io/resources/RDR44NLP_MQ_UniMelb.pdf" target="_blank">A rule-based framework for sequence labeling tasks and its application to Vietnamese NLP</a>", LTG seminar talk at Macquarie University</li>
+<li>Dec 2016 — "<a href="https://datquocnguyen.github.io/resources/ALTA2016_Presentation.pdf" target="_blank">Modeling topics and knowledge bases with embeddings</a>", ALTA 2016 Presentation </li>
+<li>Dec 2016 — "<a href="https://datquocnguyen.github.io/resources/Deakin_PRaDA_talk.pdf" target="_blank">Modeling multi-relational data from knowledge bases with embeddings</a>", PRaDA Seminar Series talk at Deakin University </li>
+<li>Nov 2016 — "<a href="https://datquocnguyen.github.io/resources/Nguyen2016_UKP_COLI.pdf" target="_blank">Modeling topics and knowledge bases with embeddings</a>", talk at the Sydney NLP Meetup</li>
+<li>Aug 2016 — "<a href="https://datquocnguyen.github.io/resources/Nguyen2016_UKP_COLI.pdf" target="_blank">Modeling topics and knowledge bases with embeddings</a>", talk at  <a href="http://www.ukp.tu-darmstadt.de" target="_blank">the UKP lab</a> at TU Darmstadt + FEAST Series talk <a href="http://www.coli.uni-saarland.de/">the COLI department</a> at Saarland University </li>
+<li>Nov 2015 — "<a href="https://datquocnguyen.github.io/resources/Nguyen_EMNLP2015.pdf" target="_blank">Improving topic models with latent feature word representations</a>", talk at the National ICT Australia</li>
+</ul>
+</div>
+
+<!--/div-->
+
+
+
+
+</div>
+</body></html>

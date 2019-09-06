@@ -1,0 +1,7 @@
+@page { widows: 2; orphans: 2; }
+body { font-size: 14px; }
+.noprint { display: none; }
+a:link, a:visited { color: black; }
+abbr, acronym { border: none; }
+pre, code, kbd, blockquote { background-color: transparent; border: none; }
+a { text-decoration: none; }
