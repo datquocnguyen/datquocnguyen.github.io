@@ -1,6 +1,6 @@
 /* primary elements */
 
-body { font: 1.0em/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif; width:90%; max-width: 90em; margin: 0 auto; text-align: justify ;}
+body { font: 1.0em/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif; width:92.5%; max-width: 90em; margin: 0 auto; text-align: justify ;}
 #header { margin-top: 0.5em; height: 2em; }
 #content { text-align: justify; }
 #footer { margin: 1.5em 0; }
