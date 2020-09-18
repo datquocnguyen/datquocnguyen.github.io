@@ -73,7 +73,7 @@ Dat Quoc Nguyen is a senior research scientist at VinAI Research, working on app
 <div id="Resources" class="tabcontent">
 <h3>Resources</h3>
 <ul>
-<li> <a href="https://github.com/VinAIResearch/BERTweet" target="_blank">BERTweet</a> (2020): A pre-trained language model for English Tweets. </li>
+<li> <a href="https://github.com/VinAIResearch/BERTweet" target="_blank">BERTweet</a> (EMNLP 2020): A pre-trained language model for English Tweets. </li>
 <li> <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank">Caps2NE</a> (CIKM 2020): Implementation of the capsule network-based model Caps2NE for learning graph node embeddings.</li>
 <li> <a href="https://github.com/aehrc/LAAT" target="_blank">LAAT</a> (IJCAI 2020): Implementation of the label attention model LAAT for ICD coding from clinical text.</li>
 <li style="color:#ff0000"><span style="color:#000000"><a href="https://github.com/VinAIResearch/COVID19Tweet" target="_blank">COVID19Tweet</a> (WNUT 2020): A dataset released for the WNUT 2020 Shared Task on  "Identification of informative COVID-19 English Tweets".</li>
@@ -104,7 +104,9 @@ jLDADMM is released to provide choices for topic modeling on normal or short tex
 
 <b>For Vietnamese:</b><br>
 
-<li> <a href="https://github.com/VinAIResearch/PhoBERT" target="_blank">PhoBERT</a> (2020): Pre-trained language models for Vietnamese. </li>
+<li style="color:#ff0000"><span style="color:#000000"> <a href="https://github.com/VinAIResearch/ViText2SQL" target="_blank">ViText2SQL</a> (EMNLP 2020 Findings): A dataset for Vietnamese Text2SQL semantic parsing. </li>
+
+<li> <a href="https://github.com/VinAIResearch/PhoBERT" target="_blank">PhoBERT</a> (EMNLP 2020 Findings): Pre-trained language models for Vietnamese. </li>
 <li> <a href="https://github.com/vncorenlp/VnCoreNLP" target="_blank">VnCoreNLP</a> (NAACL 2018): A Vietnamese NLP pipeline of word (and sentence) segmentation, POS tagging, named entity recognition and dependency parsing. </li>
 <li> <a href="https://github.com/datquocnguyen/RDRsegmenter" target="_blank">RDRsegmenter</a> (LREC 2018): A fast and accurate Vietnamese word segmenter. </li>
 <li><a href="https://github.com/datquocnguyen/VnMarMoT" target="_blank">VnMarMoT</a> (ALTA 2017): A pre-trained Vietnamese POS tagging model. </li>
@@ -122,7 +124,7 @@ jLDADMM is released to provide choices for topic modeling on normal or short tex
 <div id="Publications" class="tabcontent">
 <h3>Publications</h3>
 
-(Last updated: 30 August 2020) <br>
+(Last updated: 18 September 2020) <br>
 More up-to-date at <a href="https://scholar.google.com/citations?hl=en&user=HVl7vyEAAAAJ" target="_blank">my Google Scholar profile</a>
 
 
@@ -132,39 +134,54 @@ More up-to-date at <a href="https://scholar.google.com/citations?hl=en&user=HVl7
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2020]</b></span>
 
 
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu and Anh Tuan Nguyen. <b>2020</b>. <a href="https://arxiv.org/abs/2005.10200" target="_blank">BERTweet: A pre-trained language model for English Tweets</a>. In <i>Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</i> (EMNLP), to appear. <a href="javascript:showhide('bertweet')">[.bib]</a> <a href="https://github.com/VinAIResearch/BERTweet" target="_blank">[Software]</a></li>
 
-
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Mai Hoang Dao and Dat Quoc Nguyen. <b>2020</b>. <a href="https://datquocnguyen.github.io/resources/paper_231.pdf" target="_blank">VinAI at ChEMU 2020: An accurate system for named entity recognition in chemical reactions from patents</a>. In <i>Proceedings of the Working Notes of CLEF 2020—Conference and Labs of the Evaluation Forum</i>, to appear. <!--a href="javascript:showhide('clef2020vinai')">[.bib]</a--> </li>
-
-<div id="clef2020vinai" style="display:none;">
+<div id="bertweet" style="display:none;">
 <blockquote>
 <pre>
-  
+@inproceedings{bertweet,
+    title     = {{BERTweet: A pre-trained language model for English Tweets}},
+    author    = {Dat Quoc Nguyen and Thanh Vu and Anh Tuan Nguyen},
+    booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
+    year      = {2020}
+}
+</pre>
+</blockquote>
+</div>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Anh Tuan Nguyen, Mai Hoang Dao and Dat Quoc Nguyen. <b>2020</b>. A Pilot Study of Text-to-SQL Semantic Parsing for Vietnamese. <i>Findings of EMNLP</i>, to appear. <a href="javascript:showhide('vitext2sql')">[.bib]</a> <a href="https://github.com/VinAIResearch/ViText2SQL" target="_blank">[Data]</a></li>
+
+<div id="vitext2sql" style="display:none;">
+<blockquote>
+<pre>
+@article{vitext2sql,
+    title     = {{A Pilot Study of Text-to-SQL Semantic Parsing for Vietnamese}},
+    author    = {Anh Tuan Nguyen and Mai Hoang Dao and Dat Quoc Nguyen},
+    journal   = {Findings of EMNLP},
+    year      = {2020}
+}
 </pre>
 </blockquote>
 </div>
 
 
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Jiayuan He, Dat Quoc Nguyen, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Pedro Ruas, Andre Lamurias, Francisco M. Couto, Hilal Dönmez, Abdullatif Köksal, Elif Ozkirimli, Arzucan Özgür, Darshini Mahendran, Gabrielle Gurdin, Nastassja Lewinski, Christina Tang, Bridget McInnes, Jenny Copara, Nona Naderi, Julien Knafou, Patrick Ruch, Douglas Teodoro, Daniel Lowe, John Mayfield, Mai Hoang Dao, Malarkodi C.S., Pattabhi Rk Rao, Sobha Lalitha Devi, Jingqi Wang, Yuankai Ren, Zhi Zhang, Yaoyun Zhang, Trevor Cohn, Timothy Baldwin and Karin Verspoor. <b>2020</b>. <a href="https://datquocnguyen.github.io/resources/paper_254.pdf" target="_blank">An Extended Overview of the CLEF 2020 ChEMU Lab: Information Extraction of Chemical Reactions from Patents</a>. In <i>Proceedings of the Working Notes of CLEF 2020—Conference and Labs of the Evaluation Forum</i>, to appear. <!--a href="javascript:showhide('clef2020wn')">[.bib]</a--> </li>
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen and Anh Tuan Nguyen. <b>2020</b>. <a href="https://arxiv.org/abs/2003.00744" target="_blank">PhoBERT: Pre-trained language models for Vietnamese</a>. <i>Findings of EMNLP</i>, to appear. <a href="javascript:showhide('phobert')">[.bib]</a> <a href="https://github.com/VinAIResearch/PhoBERT" target="_blank">[Software]</a></li>
 
-<div id="clef2020wn" style="display:none;">
+<div id="phobert" style="display:none;">
 <blockquote>
 <pre>
-  
+@article{phobert,
+    title     = {{PhoBERT: Pre-trained language models for Vietnamese}},
+    author    = {Dat Quoc Nguyen and Anh Tuan Nguyen},
+    journal   = {Findings of EMNLP},
+    year      = {2020}
+}
 </pre>
 </blockquote>
 </div>
 
 
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Jiayuan He, Dat Quoc Nguyen, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor. <b>2020</b>. <a href="https://datquocnguyen.github.io/resources/paper_54.pdf" target="_blank">Overview of ChEMU 2020: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents</a>. In <i>Proceedings of the Eleventh International Conference of the CLEF Association</i> (CLEF), to appear. <!--a href="javascript:showhide('clef2020')">[.bib]</a--> </li>
 
-<div id="clef2020" style="display:none;">
-<blockquote>
-<pre>
-  
-</pre>
-</blockquote>
-</div>
 
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen and Dinh Phung. <b>2020</b>. <a href="https://arxiv.org/abs/1911.04822" target="_blank">A Capsule Network-based Model for Learning Node Embeddings</a>. In <i>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</i> (CIKM), to appear. <a href="javascript:showhide('cikm2020')">[.bib]</a> <a href="https://github.com/daiquocnguyen/Caps2NE" target="_blank">[Software]</a></li>
 
@@ -172,48 +189,63 @@ More up-to-date at <a href="https://scholar.google.com/citations?hl=en&user=HVl7
 <blockquote>
 <pre>
 @InProceedings{Caps2NE,
-    author  =     {Dai Quoc Nguyen and Tu Dinh Nguyen and Dat Quoc Nguyen and Dinh Phung},
-    title   =     {{A Capsule Network-based Model for Learning Node Embeddings}},
-    booktitle   = {Proceedings of the  29th ACM International Conference on Information and Knowledge Management},
-    year    =     {2020}
+    author    =     {Dai Quoc Nguyen and Tu Dinh Nguyen and Dat Quoc Nguyen and Dinh Phung},
+    title     =     {{A Capsule Network-based Model for Learning Node Embeddings}},
+    booktitle = {Proceedings of the  29th ACM International Conference on Information and Knowledge Management},
+    year      =     {2020}
 }
 </pre>
 </blockquote>
 </div>
 
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Jiayuan He, Dat Quoc Nguyen, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor. <b>2020</b>. <a href="https://doi.org/10.1007/978-3-030-58219-7_18" target="_blank">Overview of ChEMU 2020: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents</a>. In <i>Proceedings of the Eleventh International Conference of the CLEF Association</i> (CLEF), pages 237-254. <a href="https://datquocnguyen.github.io/resources/paper_54.pdf" target="_blank">[.pdf]</a> <a href="javascript:showhide('clef2020')">[.bib]</a> </li>
 
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen, Thanh Vu and Anh Tuan Nguyen. <b>2020</b>. <a href="https://arxiv.org/abs/2005.10200" target="_blank">BERTweet: A pre-trained language model for English Tweets</a>. <i>arXiv preprint</i>, arXiv:2005.10200. <a href="javascript:showhide('bertweet')">[.bib]</a> <a href="https://github.com/VinAIResearch/BERTweet" target="_blank">[Software]</a></li>
-
-<div id="bertweet" style="display:none;">
+<div id="clef2020" style="display:none;">
 <blockquote>
 <pre>
-@article{bertweet,
-    title   =   {{BERTweet: A pre-trained language model for English Tweets}},
-    author  =   {Dat Quoc Nguyen and Thanh Vu and Anh Tuan Nguyen},
-    journal =   {arXiv preprint},
-    volume  =   {arXiv:2005.10200},
-    year    =   {2020}
-}
+@inproceedings{ChEMUoverview,
+    author    = {He, Jiayuan and Nguyen, Dat Quoc and Akhondi, Saber A. and Druckenbrodt, Christian and Thorne, Camilo and Hoessel, Ralph and Afzal, Zubair and Zhai, Zenan and Fang, Biaoyan and Yoshikawa, Hiyori and Albahem, Ameer and Cavedon, Lawrence and Cohn, Trevor and Baldwin, Timothy and Verspoor, Karin},
+    title     = {{Overview of ChEMU 2020: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents}},
+    booktitle = {Proceedings of the Eleventh International Conference of the CLEF Association},
+    year      = {2020},
+    pages     = {237--254}
+} 
 </pre>
 </blockquote>
 </div>
 
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Jiayuan He, Dat Quoc Nguyen, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Pedro Ruas, Andre Lamurias, Francisco M. Couto, Hilal Dönmez, Abdullatif Köksal, Elif Ozkirimli, Arzucan Özgür, Darshini Mahendran, Gabrielle Gurdin, Nastassja Lewinski, Christina Tang, Bridget McInnes, Jenny Copara, Nona Naderi, Julien Knafou, Patrick Ruch, Douglas Teodoro, Daniel Lowe, John Mayfield, Mai Hoang Dao, Malarkodi C.S., Pattabhi Rk Rao, Sobha Lalitha Devi, Jingqi Wang, Yuankai Ren, Zhi Zhang, Yaoyun Zhang, Trevor Cohn, Timothy Baldwin and Karin Verspoor. <b>2020</b>. <a href="https://datquocnguyen.github.io/resources/paper_254.pdf" target="_blank">An Extended Overview of the CLEF 2020 ChEMU Lab: Information Extraction of Chemical Reactions from Patents</a>. In <i>Proceedings of the Working Notes of CLEF 2020—Conference and Labs of the Evaluation Forum</i>, to appear. <a href="javascript:showhide('clef2020wn')">[.bib]</a> </li>
 
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Dat Quoc Nguyen and Anh Tuan Nguyen. <b>2020</b>. <a href="https://arxiv.org/abs/2003.00744" target="_blank">PhoBERT: Pre-trained language models for Vietnamese</a>. <i>arXiv preprint</i>, arXiv:2003.00744. <a href="javascript:showhide('phobert')">[.bib]</a> <a href="https://github.com/VinAIResearch/PhoBERT" target="_blank">[Software]</a></li>
-
-<div id="phobert" style="display:none;">
+<div id="clef2020wn" style="display:none;">
 <blockquote>
 <pre>
-@article{phobert,
-    title   =   {{PhoBERT: Pre-trained language models for Vietnamese}},
-    author  =   {Nguyen, Dat Quoc and Nguyen, Anh Tuan},
-    journal =   {arXiv preprint},
-    volume  =   {arXiv:2003.00744},
-    year    =   {2020}
+@InProceedings{clef2020wn,
+    author    = {Jiayuan He and Dat Quoc Nguyen and others},
+    title     = {{An Extended Overview of the CLEF 2020 ChEMU Lab: Information Extraction of Chemical Reactions from Patents}},
+    booktitle = {Proceedings of the Working Notes of CLEF 2020-Conference and Labs of the Evaluation Forum},
+    year      = {2020}
 }
 </pre>
 </blockquote>
 </div>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Mai Hoang Dao and Dat Quoc Nguyen. <b>2020</b>. <a href="https://datquocnguyen.github.io/resources/paper_231.pdf" target="_blank">VinAI at ChEMU 2020: An accurate system for named entity recognition in chemical reactions from patents</a>. In <i>Proceedings of the Working Notes of CLEF 2020—Conference and Labs of the Evaluation Forum</i>, to appear. <a href="javascript:showhide('clef2020vinai')">[.bib]</a> </li>
+
+<div id="clef2020vinai" style="display:none;">
+<blockquote>
+<pre>
+@InProceedings{clef2020vinai,
+    author    = {Mai Hoang Dao and Dat Quoc Nguyen},
+    title     = {{VinAI at ChEMU 2020: An accurate system for named entity recognition in chemical reactions from patents}},
+    booktitle = {Proceedings of the Working Notes of CLEF 2020-Conference and Labs of the Evaluation Forum},
+    year      = {2020}
+}
+</pre>
+</blockquote>
+</div>
+
+
+
 
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify">Thanh Vu, Dat Quoc Nguyen and Anthony Nguyen. <b>2020</b>. <a href="https://doi.org/10.24963/ijcai.2020/461" target="_blank">A Label Attention Model for ICD Coding from Clinical Text</a>. In <i>Proceedings of the 29th International Joint Conference on Artificial Intelligence</i> (IJCAI), pages 3335-3341. <a href="javascript:showhide('ijcai2020')">[.bib]</a> <a href="https://github.com/aehrc/LAAT" target="_blank">[Software]</a></li>
 
