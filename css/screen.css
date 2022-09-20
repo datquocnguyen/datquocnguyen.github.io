@@ -40,6 +40,8 @@ table {
 th { border-bottom: thin solid black; }
 td { padding: 0 0.5em; }
 
+li {margin-top:0.25em;margin-bottom:0.25em}
+
 /* rules */
 hr { border: none; border-top: thin solid #999; }
 
