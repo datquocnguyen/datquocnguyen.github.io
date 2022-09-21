@@ -1,6 +1,6 @@
 /* primary elements */
 
-body { font: 1.0em/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif; width:92.5%; max-width: 90em; margin: 0 auto; text-align: justify ;}
+body { font: 1.0em/1.5 "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; width:92.5%; max-width: 90em; margin: 0 auto; text-align: justify ;}
 #header { margin-top: 0.5em; height: 2em; }
 #content { text-align: justify; }
 #footer { margin: 1.5em 0; }
@@ -9,14 +9,14 @@ body { font: 1.0em/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif; wid
 
 /* headers */
 h1, h2, h3{
-  font-family: Arial;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
   line-height: 1.4em;
   text-align: left;
   color: #008;
 }
 
 h4, h5, h6 {
-  font: 1.1em Arial; 
+  font: 1.1em "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
   font-style: italic;
   line-height: 1.2em;
   text-align: left;
