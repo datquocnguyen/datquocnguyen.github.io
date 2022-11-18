@@ -26,13 +26,17 @@ h4, h5, h6 {
 button {
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     text-align: left;
+    border: 0.5px solid #008;
+    border-radius: 5px;
+    box-shadow: #008 2px 2px 0 0;
     color: #008;
-    font-size: 20px;
-    background-color: transparent;
-    background-repeat: no-repeat;
     cursor: pointer;
-    overflow: hidden;
-    outline: none;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 /* pre, code, kbd, and blockquote */
