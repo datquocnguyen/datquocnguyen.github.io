@@ -37,6 +37,8 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    background-color: Transparent;
+    background-repeat:no-repeat;
 }
 
 /* pre, code, kbd, and blockquote */
