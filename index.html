@@ -134,6 +134,7 @@ Dat Quoc Nguyen has served as an Action Editor for <a href="https://aclrollingre
 <div id="Resources" class="tabcontent">
 <h3>Resources</h3>
 <ul>
+<li><a href="https://github.com/vinhsuhi/WGE" target="_blank">WGE</a> (ESWC 2023): Implementation of the two-view graph neural network model WGE for knowledge graph completion.</li>
 <li><a href="https://github.com/vinhsuhi/JMAC" target="_blank">JMAC</a> (EMNLP 2022 Findings): Implementation of the JMAC model for joint multilingual knowledge graph completion and alignment.</li>
 <li><a href="https://github.com/daiquocnguyen/GNN-NoGE" target="_blank">NoGE</a> (WSDM 2022): Implementation of the node co-occurrence based graph neural network model NoGE for knowledge graph completion.</li>
 <li style="color:#ff0000"><span style="color:#000000"><a href="https://doi.org/10.17632/g7tjh7tbrj.3" target="_blank">ChemTables</a> (J. Cheminf. 2021): A dataset for semantic classification on tables in chemical patents.</li>
@@ -202,12 +203,27 @@ jLDADMM is released to provide choices for topic modeling on normal or short tex
 <div id="Publications" class="tabcontent">
 <h3>Publications</h3>
 
-Last updated: 05/02/2023. See <a href="https://scholar.google.com/citations?hl=en&user=HVl7vyEAAAAJ" target="_blank">my Google Scholar profile</a> for an up-to-date list of publications. <br>
+Last updated: 25/02/2023. See <a href="https://scholar.google.com/citations?hl=en&user=HVl7vyEAAAAJ" target="_blank">my Google Scholar profile</a> for an up-to-date list of publications. <br>
 
 
 <ol reversed>
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2023]</b></span>
+
+<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Vinh Tong, Dai Quoc Nguyen, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a>. In <i>Proceedings of the 19th Extended Semantic Web Conference</i> (ESWC), to appear. <a href="javascript:showhide('wge')">[BibTeX]</a> <a href="https://github.com/vinhsuhi/WGE" target="_blank">[Software]</a>  </li>
+
+<div id="wge" style="display:none;">
+<blockquote>
+<pre>
+@inproceedings{wge,
+    title     = {{Two-view Graph Neural Networks for Knowledge Graph Completion}},
+    author    = {Vinh Tong and Dai Quoc Nguyen and Dinh Phung and Dat Quoc Nguyen},
+    booktitle = {Proceedings of the 19th Extended Semantic Web Conference},
+    year      = {2023}
+}
+</pre>
+</blockquote>
+</div> 
 
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Thien Hai Nguyen, Thinh Pham, Khoi Minh Le, Manh Luong, Nguyen Luong Tran, Hieu Man, Dang Minh Nguyen, Tuan Anh Luu, Thien Huu Nguyen, Hung Bui, Dinh Phung and Dat Quoc Nguyen. <b>2023</b>. A Vietnamese Spelling Correction System. In <i>Companion Proceedings of the 28th International Conference on Intelligent User Interfaces</i> (IUI), to appear. </li>
 
@@ -366,22 +382,6 @@ Last updated: 05/02/2023. See <a href="https://scholar.google.com/citations?hl=e
 
 
 <span style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>[2021]</b></span>
-
-<li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Vinh Tong, Dai Quoc Nguyen, Dinh Phung and Dat Quoc Nguyen. <b>2021</b>. <a href="https://arxiv.org/abs/2112.09231" target="_blank">Two-view Graph Neural Networks for Knowledge Graph Completion</a>. <i>arXiv preprint</i>, arXiv:2112.09231. <a href="javascript:showhide('wge')">[BibTeX]</a>  </li>
-
-<div id="wge" style="display:none;">
-<blockquote>
-<pre>
-@article{wge,
-    title     = {{Two-view Graph Neural Networks for Knowledge Graph Completion}},
-    author    = {Vinh Tong and Dai Quoc Nguyen and Dinh Phung and Dat Quoc Nguyen},
-    journal   = {arXiv preprint},
-    volume    = {arXiv:2112.09231},
-    year      = {2021}
-}
-</pre>
-</blockquote>
-</div> 
 
 
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"> Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber A. Akhondi, Dat Quoc Nguyen, Trevor Cohn and Karin Verspoor. <b>2021</b>. <a href="https://doi.org/10.1186/s13321-021-00568-2" target="_blank">ChemTables: A dataset for semantic classification on tables in chemical patents</a>. <i>Journal of Cheminformatics</i>, 13:97:1-20. (SCIE, JCR IF: 5.514) <a href="javascript:showhide('ChemTables')">[BibTeX]</a>  <a href="https://doi.org/10.17632/g7tjh7tbrj.3" target="_blank">[Data]</a> </li> 
@@ -1040,7 +1040,7 @@ Last updated: 05/02/2023. See <a href="https://scholar.google.com/citations?hl=e
 </div>
 
 
-<li style="margin-top:0.5em;text-align:justify">Mark Johnson and  Dat Quoc Nguyen. <b>2017</b>. <a href="http://web.science.mq.edu.au/~mjohnson/papers/Johnson17Power-talk.pdf" target="_blank">How much data is enough? Predicting how accuracy varies with training data size</a>. Technical report. <a href="javascript:showhide('TDataSize')">[BibTeX]</a> </li> 
+<!--li style="margin-top:0.5em;text-align:justify">Mark Johnson and  Dat Quoc Nguyen. <b>2017</b>. <a href="http://web.science.mq.edu.au/~mjohnson/papers/Johnson17Power-talk.pdf" target="_blank">How much data is enough? Predicting how accuracy varies with training data size</a>. Technical report. <a href="javascript:showhide('TDataSize')">[BibTeX]</a> </li> 
 
 <div id="TDataSize" style="display:none;">
 <blockquote>
@@ -1053,7 +1053,7 @@ Last updated: 05/02/2023. See <a href="https://scholar.google.com/citations?hl=e
 }
 </pre>
 </blockquote>
-</div>
+</div-->
 
 <li style="margin-top:0.5em;margin-bottom:0.5em;text-align:justify"><b>Dat Quoc Nguyen. 2017. <i><a href="http://hdl.handle.net/1959.14/1261406" target="_blank">Modeling Topics and Knowledge Bases with Vector Representations</a></i>. PhD thesis, Macquarie University, Australia. <a href="https://datquocnguyen.github.io/resources/DatQuocNguyen_PHD_Thesis.pdf" target="_blank">[.pdf]</a> <a href="javascript:showhide('DatQuocNguyen_PHD_Thesis')">[BibTeX]</a> </b></li> 
 
